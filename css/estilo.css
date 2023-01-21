@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+div{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+.grad1{
+    background-color: aqua;
+    transition: all 2s ease;
+
+}
+.grad1:hover{
+    background-color: blue;
+    height: 200px;
+    transform: rotate(20deg);
+}
+.grad2{
+    background: linear-gradient(red, blue);
+    transition: all 3s ease-in-out;
+
+}
+.grad2:hover{
+    background: linear-gradient(red, blue);
+    transform: scale(1,2);
+    border-radius: 50%;
+  
+}
+.grad3{
+    background-color: greenyellow;
+    transition: all 3s ease-in-out;
+}
+.grad3:hover{
+    background: linear-gradient(yellow, blue);
+    transform: scale(1,2);
+    border-radius: 50%;
+}
